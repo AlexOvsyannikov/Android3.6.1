@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/arg1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/arg1_str"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/arg2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/arg2_str"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="248dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/answer_str" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/subtr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtr" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mul" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/divide" />
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

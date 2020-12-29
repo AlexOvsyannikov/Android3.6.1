@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalcApp2</string>
+    <string name="testID">3892</string>
+    <string name="arg1_str">Первый аргумент</string>
+    <string name="arg2_str">Второй аргумент</string>
+    <string name="answer_str">Ответ:</string>
+    <string name="add">+</string>
+    <string name="subtr">-</string>
+    <string name="mul">*</string>
+    <string name="divide">/</string>
+</resources>
