@@ -53,7 +53,8 @@
             android:id="@+id/add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/add" />
+            android:text="@string/add"
+            android:onClick="add"/>
 
         <Button
             android:id="@+id/subtr"
