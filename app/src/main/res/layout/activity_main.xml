@@ -60,7 +60,8 @@
             android:id="@+id/subtr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/subtr" />
+            android:text="@string/subtr"
+            android:onClick="subtr"/>
 
         <Button
             android:id="@+id/mul"

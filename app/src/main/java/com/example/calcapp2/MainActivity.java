@@ -53,4 +53,10 @@ public class MainActivity extends AppCompatActivity {
         this.Answer=this.Arg1+this.Arg2;
         put_data();
     }
+
+    public void subtr(View view) {
+        get_data();
+        this.Answer=this.Arg1-this.Arg2;
+        put_data();
+    }
 }
