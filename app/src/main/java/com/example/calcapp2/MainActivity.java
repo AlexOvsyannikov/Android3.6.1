@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void put_data(){
-        if (!answer.getText().toString().equals("Input Error")){
+        if ((!answer.getText().toString().equals("Input Error")) && (!answer.getText().toString().equals("Div by zero"))){
             answer.setText(String.valueOf(this.Answer));
         }
 
@@ -63,6 +63,20 @@ public class MainActivity extends AppCompatActivity {
     public void mul(View view) {
         get_data();
         this.Answer=this.Arg1*this.Arg2;
+        put_data();
+    }
+
+
+    public void divide(View view) {
+        get_data();
+        try {
+            this.Answer=this.Arg1/this.Arg2;
+        }
+        catch (ArithmeticException ae){
+            if (!answer.getText().toString().equals("Input Error")){
+                answer.setText("Div by zero");
+            }
+        }
         put_data();
     }
 }
