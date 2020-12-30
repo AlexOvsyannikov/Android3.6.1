@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     EditText arg2;
     TextView answer;
 
-    int Arg1;
-    int Arg2;
-    int Answer;
+    float Arg1;
+    float Arg2;
+    float Answer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
