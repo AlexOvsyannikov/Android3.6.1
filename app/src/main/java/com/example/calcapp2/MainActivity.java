@@ -13,6 +13,7 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends AppCompatActivity {
     //add variables
+
     EditText arg1;
     EditText arg2;
     TextView answer;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @SuppressLint("SetTextI18n")
     public void divide(View view) {
         clear_data();
         get_data();
