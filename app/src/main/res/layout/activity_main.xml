@@ -67,7 +67,8 @@
             android:id="@+id/mul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/mul" />
+            android:text="@string/mul"
+            android:onClick="mul"/>
 
         <Button
             android:id="@+id/divide"
