@@ -8,4 +8,5 @@
     <string name="subtr">-</string>
     <string name="mul">*</string>
     <string name="divide">/</string>
+    <string name="clear">Clear</string>
 </resources>

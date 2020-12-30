@@ -88,4 +88,10 @@ public class MainActivity extends AppCompatActivity {
         }
         put_data();
     }
+
+    public void clear(View view) {
+        clear_data();
+        arg1.setText("");
+        arg2.setText("");
+    }
 }
